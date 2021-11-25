@@ -1,0 +1,14 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "PREFIX": {
+      "description": "A prefix for all resources, having a format something like `${ENVIRONMENT}-${SCOPE}-${PROJECT}` used as the name for the resource group and a prefix for resources `${PREFIX}-${RESOURCE}`",
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 15
+    }
+  },
+  "resources": [
+  ]
+}
